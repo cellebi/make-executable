@@ -29,7 +29,7 @@ gradlePlugin {
         create("makeExecutable") {
             id = "pub.cellebi.make-executable"
             implementationClass = "pub.cellebi.plugin.ExecutorPlugin"
-            displayName = "Make Jar Executable"
+            displayName = "Jar-Executor"
             description = "This is a gradle plugin for you to make your jar executable. It can produce a executable binary file from jar files"
         }
     }
