@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fb344eb-d99a-455e-bb4d-e5b7db38dda2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pub/cellebi/plugin/ExecutorPlugin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pub/cellebi/plugin/config/ExecutorConfigExtension.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pub/cellebi/plugin/task/MakeExecutableTask.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/pub/cellebi/plugin/task/PrepareMakeExecutableTask.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/pub/cellebi/plugin/ExecutorPluginTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pub/cellebi/plugin/ExecutorPlugin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pub/cellebi/plugin/ExecutorPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/pub/cellebi/plugin/ExecutorPlugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/pub/cellebi/plugin/ExecutorPluginTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/pub/cellebi/plugin/ExecutorPluginTest.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -73,6 +69,12 @@
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="publishing" type="c8890929:TasksNode$1" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="make-executable" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -85,8 +87,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle.kts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
-              <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+            <state relative-caret-position="736">
+              <caret line="32" column="87" lean-forward="true" selection-start-line="32" selection-start-column="87" selection-end-line="32" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -94,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/settings.gradle.kts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            <state relative-caret-position="23">
+              <caret line="1" selection-start-line="1" selection-end-line="7" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -103,11 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/pub/cellebi/plugin/task/MakeExecutableTask.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-              <folding>
-                <element signature="e#28#81#0" expanded="true" />
-              </folding>
+            <state>
+              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -116,9 +115,9 @@
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/pub/cellebi/plugin/task/PrepareMakeExecutableTask.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
-                <element signature="e#33#105#0" expanded="true" />
+                <element signature="e#33#236#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,8 +126,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/pub/cellebi/plugin/ExecutorPlugin.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="391">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding>
                 <element signature="e#28#250#0" expanded="true" />
               </folding>
@@ -139,8 +138,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/pub/cellebi/plugin/config/ExecutorConfigExtension.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            <state relative-caret-position="92">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -148,11 +147,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/pub/cellebi/plugin/ExecutorPluginTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-              <folding>
-                <element signature="e#28#176#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="92">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -160,7 +156,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/Cellar/gradle/5.4/libexec/src/core/org/gradle/testfixtures/ProjectBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-61">
+            <state relative-caret-position="598">
               <caret line="46" column="3" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
             </state>
           </provider>
@@ -210,10 +206,10 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/pub/cellebi/plugin/ExecutorConfigExtension.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/pub/cellebi/plugin/ExecuteTask.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/pub/cellebi/plugin/makeExecutableTask.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/pub/cellebi/plugin/ExecutorPlugin.kt" />
-        <option value="$PROJECT_DIR$/src/test/kotlin/pub/cellebi/plugin/ExecutorPluginTest.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/pub/cellebi/plugin/task/PrepareMakeExecutableTask.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/pub/cellebi/plugin/task/MakeExecutableTask.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/pub/cellebi/plugin/task/PrepareMakeExecutableTask.kt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/pub/cellebi/plugin/ExecutorPluginTest.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/pub/cellebi/plugin/ExecutorPlugin.kt" />
         <option value="$PROJECT_DIR$/build.gradle.kts" />
       </list>
     </option>
@@ -225,8 +221,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="954" />
-    <option name="height" value="1080" />
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="970" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -234,8 +231,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,87 +238,18 @@
               <item name="make-executable" type="b2602c69:ProjectViewProjectNode" />
               <item name="make-executable" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="make-executable" type="b2602c69:ProjectViewProjectNode" />
-              <item name="make-executable" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="make-executable" type="b2602c69:ProjectViewProjectNode" />
-              <item name="make-executable" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="make-executable" type="b2602c69:ProjectViewProjectNode" />
-              <item name="make-executable" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="make-executable" type="b2602c69:ProjectViewProjectNode" />
-              <item name="make-executable" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="make-executable" type="b2602c69:ProjectViewProjectNode" />
-              <item name="make-executable" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="make-executable" type="b2602c69:ProjectViewProjectNode" />
-              <item name="make-executable" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="plugin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="make-executable" type="b2602c69:ProjectViewProjectNode" />
-              <item name="make-executable" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="make-executable" type="b2602c69:ProjectViewProjectNode" />
-              <item name="make-executable" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="make-executable" type="b2602c69:ProjectViewProjectNode" />
-              <item name="make-executable" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="make-executable" type="b2602c69:ProjectViewProjectNode" />
-              <item name="make-executable" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="plugin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="make-executable" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560771101651" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562808926944" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/kotlin" />
@@ -332,6 +258,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -344,6 +271,9 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -358,64 +288,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.make-executable [clean]">
-    <configuration name="make-executable [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="make-executable [publishMakeExecutablePluginMarkerMavenPublicationToMavenLocal]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="publishMakeExecutablePluginMarkerMavenPublicationToMavenLocal" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="make-executable [publishPluginMavenPublicationToMavenLocal]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="publishPluginMavenPublicationToMavenLocal" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.make-executable [publishToMavenLocal]">
     <configuration name="make-executable [publishPlugins]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -454,13 +327,64 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="make-executable [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ExecutorPluginTest.makeExecutable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pub.cellebi.make-executable.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pub.cellebi.plugin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pub.cellebi.plugin" />
+      <option name="MAIN_CLASS_NAME" value="pub.cellebi.plugin.ExecutorPluginTest" />
+      <option name="METHOD_NAME" value="makeExecutable" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExecutorPluginTest.testApply" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pub.cellebi.make-executable.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pub.cellebi.plugin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pub.cellebi.plugin" />
+      <option name="MAIN_CLASS_NAME" value="pub.cellebi.plugin.ExecutorPluginTest" />
+      <option name="METHOD_NAME" value="testApply" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.make-executable [publishPlugins]" />
-        <item itemvalue="Gradle.make-executable [clean]" />
         <item itemvalue="Gradle.make-executable [publishToMavenLocal]" />
-        <item itemvalue="Gradle.make-executable [publishMakeExecutablePluginMarkerMavenPublicationToMavenLocal]" />
-        <item itemvalue="Gradle.make-executable [publishPluginMavenPublicationToMavenLocal]" />
+        <item itemvalue="JUnit.ExecutorPluginTest.testApply" />
+        <item itemvalue="JUnit.ExecutorPluginTest.makeExecutable" />
+        <item itemvalue="Gradle.make-executable [test]" />
+        <item itemvalue="Gradle.make-executable [publishPlugins]" />
       </list>
     </recent_temporary>
   </component>
@@ -477,26 +401,16 @@
       <workItem from="1560564979041" duration="15163000" />
       <workItem from="1560733591426" duration="2353000" />
       <workItem from="1560753795496" duration="1061000" />
-      <workItem from="1560759094720" duration="7273000" />
+      <workItem from="1560759094720" duration="13339000" />
+      <workItem from="1560906931243" duration="638000" />
+      <workItem from="1562241221743" duration="3245000" />
+      <workItem from="1562288863029" duration="608000" />
+      <workItem from="1562289843719" duration="1333000" />
+      <workItem from="1562751819468" duration="4260000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExecutorPluginTest_testApply - 2019.06.17 at 17h 04m 51s.xml">
-      <configuration name="ExecutorPluginTest.testApply" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExecutorPluginTest_testApply - 2019.06.17 at 17h 05m 57s.xml">
-      <configuration name="ExecutorPluginTest.testApply" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExecutorPluginTest_testApply - 2019.06.17 at 17h 07m 22s.xml">
-      <configuration name="ExecutorPluginTest.testApply" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExecutorPluginTest_testApply - 2019.06.17 at 17h 08m 30s.xml">
-      <configuration name="ExecutorPluginTest.testApply" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExecutorPluginTest_testApply - 2019.06.17 at 17h 08m 45s.xml">
-      <configuration name="ExecutorPluginTest.testApply" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ExecutorPluginTest_testApply - 2019.06.17 at 17h 13m 27s.xml">
       <configuration name="ExecutorPluginTest.testApply" configurationId="JUnit" />
     </history-entry>
@@ -509,9 +423,27 @@
     <history-entry file="ExecutorPluginTest_testApply - 2019.06.17 at 18h 01m 34s.xml">
       <configuration name="ExecutorPluginTest.testApply" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="make-executable_[test] - 2019.07.04 at 19h 58m 36s.xml">
+      <configuration name="make-executable [test]" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ExecutorPluginTest_makeExecutable - 2019.07.10 at 17h 48m 32s.xml">
+      <configuration name="ExecutorPluginTest.makeExecutable" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExecutorPluginTest_testApply - 2019.07.10 at 17h 51m 41s.xml">
+      <configuration name="ExecutorPluginTest.testApply" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExecutorPluginTest_testApply - 2019.07.10 at 17h 53m 13s.xml">
+      <configuration name="ExecutorPluginTest.testApply" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExecutorPluginTest_testApply - 2019.07.10 at 17h 53m 37s.xml">
+      <configuration name="ExecutorPluginTest.testApply" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExecutorPluginTest_testApply - 2019.07.10 at 19h 11m 38s.xml">
+      <configuration name="ExecutorPluginTest.testApply" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32055000" />
+    <option name="totallyTimeSpent" value="48205000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -523,59 +455,67 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49774775" visible="true" weight="0.19444445" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49774775" visible="true" weight="0.17200854" />
       <window_info id="Structure" order="1" sideWeight="0.5022523" side_tool="true" weight="0.18821838" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" sideWeight="0.49946582" weight="0.3299389" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928162" visible="true" weight="0.21486762" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946582" weight="0.2820774" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49839744" visible="true" weight="0.24338086" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49893162" weight="0.23930754" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299389" />
       <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49893162" weight="0.28004074" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.35845214" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.4898167" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005342" side_tool="true" weight="0.39918533" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50106835" side_tool="true" weight="0.2820774" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.3299389" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49946582" weight="0.3299389" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.3297414" />
+      <window_info anchor="right" id="Maven" order="3" show_stripe_button="false" weight="0.32959402" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" visible="true" weight="0.23130342" />
+      <window_info anchor="right" id="Gradle" order="6" visible="true" weight="0.19391026" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Key Promoter X" order="10" weight="0.32959402" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="p.tasks" language="kotlin" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>p.tasks</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/local/Cellar/gradle/5.4/libexec/src/dependency-management/org/gradle/api/internal/artifacts/dsl/dependencies/DefaultDependencyHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="143" column="92" selection-start-line="143" selection-start-column="92" selection-end-line="143" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/local/Cellar/gradle/5.4/libexec/lib/gradle-kotlin-dsl-5.4.jar!/org/gradle/kotlin/dsl/support/delegates/DependencyHandlerDelegate.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="67" column="23" lean-forward="true" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/Cellar/gradle/5.4/libexec/src/core-api/org/gradle/plugin/use/PluginDependencySpec.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -780,13 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gradle.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/local/Cellar/gradle/5.4/libexec/lib/gradle-kotlin-dsl-5.4.jar!/org/gradle/kotlin/dsl/ExtensionContainerExtensions.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -815,13 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/Cellar/gradle/5.4/libexec/src/core/org/gradle/testfixtures/ProjectBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-61">
-          <caret line="46" column="3" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/Cellar/gradle/5.4/libexec/src/core-api/org/gradle/api/tasks/TaskContainer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-133">
@@ -829,57 +755,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/pub/cellebi/plugin/config/ExecutorConfigExtension.kt">
+    <entry file="file://$PROJECT_DIR$/build/resources/main/META-INF/gradle-plugins/pub.cellebi.make-executable.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/local/Cellar/gradle/5.4/libexec/src/core-api/org/gradle/api/Project.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        <state relative-caret-position="393">
+          <caret line="290" column="9" selection-start-line="290" selection-start-column="9" selection-end-line="290" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/gradle/5.4/libexec/src/core/org/gradle/testfixtures/ProjectBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="46" column="3" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/pub/cellebi/plugin/ExecutorPluginTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding>
-            <element signature="e#28#176#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="92">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/resources/main/META-INF/gradle-plugins/pub.cellebi.make-executable.properties">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle.kts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/pub/cellebi/plugin/task/MakeExecutableTask.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="e#28#81#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/pub/cellebi/plugin/task/PrepareMakeExecutableTask.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
-            <element signature="e#33#105#0" expanded="true" />
+            <element signature="e#33#236#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/pub/cellebi/plugin/task/MakeExecutableTask.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/pub/cellebi/plugin/config/ExecutorConfigExtension.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/pub/cellebi/plugin/ExecutorPlugin.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="391">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
             <element signature="e#28#250#0" expanded="true" />
           </folding>
@@ -888,8 +836,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle.kts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+        <state relative-caret-position="736">
+          <caret line="32" column="87" lean-forward="true" selection-start-line="32" selection-start-column="87" selection-end-line="32" selection-end-column="87" />
         </state>
       </provider>
     </entry>

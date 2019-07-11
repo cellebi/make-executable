@@ -13,6 +13,9 @@ class ExecutorPlugin : Plugin<Project> {
         project.tasks.register("makeJarExecutable", MakeExecutableTask::class.java) {
             it.options = config.options.joinToString(" ").trim()
             it.target = project.file("${project.buildDir}/libs/${project.name}-${project.version}.jar")
+            if (config.name.isEmpty()) {
+                config.name = "app"
+            }
             it.executableFile = project.file("${project.buildDir}/dist/${config.name}")
             it.dependsOn("prepareMakeExecutable")
         }

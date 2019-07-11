@@ -2,7 +2,6 @@ package pub.cellebi.plugin
 
 import org.gradle.api.internal.project.ProjectInternal
 import org.gradle.testfixtures.ProjectBuilder
-import org.junit.Assert.*
 import org.junit.Test
 
 class ExecutorPluginTest {

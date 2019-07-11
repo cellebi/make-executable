@@ -8,7 +8,7 @@ plugins {
 }
 
 group = "pub.cellebi"
-version = "0.0.1-SNAPSHOT"
+version = "0.0.1"
 
 repositories {
     mavenCentral()
@@ -30,7 +30,7 @@ gradlePlugin {
             id = "pub.cellebi.make-executable"
             implementationClass = "pub.cellebi.plugin.ExecutorPlugin"
             displayName = "Make Jar Executable"
-            description = "Plugin for making your jar executable"
+            description = "This is a gradle plugin for you to make your jar executable. It can produce a executable binary file from jar files"
         }
     }
 }
