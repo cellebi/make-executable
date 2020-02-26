@@ -26,14 +26,14 @@ open class MakeExecutableTask : DefaultTask() {
         if (executableFile!!.exists()) {
             project.delete(executableFile)
         }
-        FileOutputStream(executableFile).buffered().use { writer ->
+        FileOutputStream(executableFile!!).buffered().use { writer ->
             writer.write(
                 """#!/usr/bin/env sh
 exec java $options -jar "$0" "$@"
 
             """.trimMargin().toByteArray(Charset.forName("ASCII"))
             )
-            FileInputStream(target).buffered().use { reader ->
+            FileInputStream(target!!).buffered().use { reader ->
                 val byteBuffer = ByteArray(1024)
                 while (true) {
                     val readSize = reader.read(byteBuffer)

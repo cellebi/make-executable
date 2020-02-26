@@ -49,12 +49,6 @@ makeExecutable {
 其中name是你最终生成的可执行文件的名称，options是配置java命令的options，
 例如上面例子配置了类路径为lib。
 
-```kotlin
-tasks.named("makeJarExecutable") {
-    dependsOn("jar")
-}
-```
-配置任务依赖，让makeJarExecutable依赖jar任务
 
 - 执行任务
 ```bash

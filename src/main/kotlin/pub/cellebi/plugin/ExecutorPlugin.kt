@@ -17,7 +17,7 @@ class ExecutorPlugin : Plugin<Project> {
                 config.name = "app"
             }
             it.executableFile = project.file("${project.buildDir}/dist/${config.name}")
-            it.dependsOn("prepareMakeExecutable")
+            it.dependsOn("jar", "prepareMakeExecutable")
         }
         project.tasks.register("prepareMakeExecutable", PrepareMakeExecutableTask::class.java)
     }

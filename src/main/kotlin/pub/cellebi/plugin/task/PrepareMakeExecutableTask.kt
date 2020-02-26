@@ -1,9 +1,7 @@
 package pub.cellebi.plugin.task
 
 import org.gradle.api.DefaultTask
-import org.gradle.api.tasks.Nested
 import org.gradle.api.tasks.TaskAction
-import pub.cellebi.plugin.config.ExecutorConfigExtension
 import java.lang.IllegalStateException
 
 open class PrepareMakeExecutableTask : DefaultTask() {
